@@ -394,7 +394,7 @@ button {
 .menu__list {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .menu_item {
@@ -535,9 +535,15 @@ button {
     margin-bottom: 86px;
 }
 
+
 .portfolio__buttons {
     display: flex;
     justify-content: space-between;
+}
+
+.portfolio__image{
+    min-width: 700px;
+    text-align: center;
 }
 
 @media screen and (max-width:550px) {
